@@ -1,8 +1,8 @@
-/* *{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box
-} */
+}
 /* clearfix */
 
 
@@ -12,33 +12,138 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-h1{
-  font-style: 50px;
+h1 {
+	font-size: 50px;
+	margin: 20px 0;
 }
-
 span{
   color: orange;
 }
-/* img{
+img{
   max-width: 100%;
-} */
-.section-1-left{
-  width: 40%;
-  float: left;
-  margin-left: 5%;
-  padding: 2%;
+}
+section {
+	height: 635px;
+	overflow: hidden;
+  margin-bottom: 70px;
+  padding-bottom: 50px;
+p{
+  color: dimgrey;
+}
+.section-1{
+  background-image: url("./images/top-banner.png") ;
+  background-repeat: no-repeat;
+}
+
+.section-1-left {
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+	padding: 220px 62px;
 }
 .section-1-left h1{}
 .section-1-left h1 span{}
-.section-1-left h3{}
-.section-1-left p{}
+.section-1-left h3 {
+	font-size: 20px;
+	margin: 30px auto;
+	font-weight: 600;
+}
+.section-1-left p{
+  line-height: 1.9;
+}
 
-.section-1-right{
-  width: 40%;
-  float: left;
-  margin-left: 5%;
+.section-1-right {
+	width: 40%;
+	float: left;
+	margin-left: 5%;
   padding: 2%;
+	text-align: center;
 }
 .section-1-right img{
-  width: 100%;
+  width: 85%;
+}
+
+.link-btn {
+	padding: 10px 40px;
+	color: #fff;
+	margin: 20px 0;
+	display: inline-block;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+/* section end */
+.section-2{
+  background-image: url("./images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.section-22{
+  width: 40%;
+	float: left;
+	margin-left: 5%;
+  padding: 2%;
+}
+.section-22 img{
+  width: 85%;
+}
+.section-22 h1{
+  font-size: 50px;
+	margin: 20px 0;
+}
+.section-22 h3{
+  font-size: 20px;
+	margin: 30px auto;
+	font-weight: 600;
+}
+.section-22 p{
+  line-height: 1.9;
+}
+
+/* section end */
+.exprience{
+  background-image: url("./images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  overflow: hidden;
+}
+.section-33 {
+	width: 40%;
+	padding: 6%;
+	float: left;
+	margin-left: 5%;
+	height: 80%;
+}
+.section-33 h2 {
+	font-size: 40px;
+	margin: 20px 0;
+}
+.section-33 h3 {
+	color: orange;
+	margin-bottom: 16px;
+}
+.section-33 p {
+	line-height: 1.8;
+}
+
+.single{
+  box-shadow: 10px 10px 40px gray;
+}
+
+#left{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+#right{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+
+footer{
+  text-align: center;
+  margin: 80px 0;
 }
